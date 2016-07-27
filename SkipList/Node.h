@@ -8,6 +8,7 @@ public:
 	std::vector<Node *> forward;
 
 	Node();
+	Node(Domain * domain, int level);
 	~Node();
 
 	int getKey();
