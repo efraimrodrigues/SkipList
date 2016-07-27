@@ -110,9 +110,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Domain.h" />
+    <ClInclude Include="Node.h" />
     <ClInclude Include="SkipList.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Domain.cpp" />
+    <ClCompile Include="Node.cpp" />
     <ClCompile Include="SkipList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
